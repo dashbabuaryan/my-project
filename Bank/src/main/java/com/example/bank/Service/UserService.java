@@ -41,6 +41,7 @@ public class UserService {
     
     public int subtraction(Integer a, Integer b) {
         log.info("Performing subtraction of {} and {}", a, b);
+        System.out.println("Performing subtraction of " + a + " and " + b);
         return a - b;
     }
 
