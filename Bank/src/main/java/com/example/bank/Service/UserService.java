@@ -33,6 +33,11 @@ public class UserService {
 
     }
 
+    public int multiplication(Integer a, Integer b) {
+        log.info("Performing addition of {} and {}", a, b);
+        return a * b;
+    }
+    
     
 
     @Autowired
